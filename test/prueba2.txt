@@ -1,0 +1,15 @@
+VAR SACERDOTISA hola = 2;
+VAR PAPA chao = 0;
+
+SOL (hola == 1)
+{
+	FUERZA(hola);
+}
+LUNA
+{
+	RUEDA_FORTUNA(hola != 10)
+	{
+		FUERZA(hola);
+		hola += 1;
+	}
+}

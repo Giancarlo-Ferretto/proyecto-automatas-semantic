@@ -1,0 +1,21 @@
+VAR EMPERATRIZ hola = 'buenas tardes caballero';
+
+VAR PAPA adios = 24;
+adios += 1;
+
+FUERZA(adios);
+
+SOL (adios == 6)
+{
+	TORRE(adios);
+	MUNDO(adios);
+	ESTRELLA(adios);
+	FUERZA(adios);
+}
+LUNA_SOL (adios == 25)
+{
+	COLGADO(prueba; prueba != 15; prueba += 5;)
+	{
+		FUERZA(hola);
+	}
+}
